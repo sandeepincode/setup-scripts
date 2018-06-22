@@ -70,5 +70,11 @@ mkdir db
 cd
 
 echo "========================="
+
+echo "11. Installing Chrome"
+sudo apt install chromium-browser
+
+
+echo "========================="
 echo "  Setup Script Complete"
 echo "========================="

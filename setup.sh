@@ -74,6 +74,12 @@ echo "========================="
 echo "11. Installing Chrome"
 sudo apt install chromium-browser
 
+echo "========================="
+
+echo "11. Installing Flux"
+sudo add-apt-repository ppa:nathan-renniewaldock/flux
+sudo apt-get update
+sudo apt-get install fluxgui
 
 echo "========================="
 echo "  Setup Script Complete"
